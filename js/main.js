@@ -48,7 +48,6 @@ function initialize(){
 
 function play() {
     $selectedCell.click(playerMove);
-    checkWin;
     $btnReset.click(clearBoard);
 }
 
